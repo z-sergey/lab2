@@ -35,6 +35,6 @@ if __name__ == '__main__':
             file_name_print = sys.argv[3] if len(sys.argv) > 3 else None
             main(file_name, float(max_value), file_name_print)
         else:
-            print("Укажите уровень закрытия цены")
+            print("Укажите объем торгов")
     else:    
         print("Укажите имя файла")
