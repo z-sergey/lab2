@@ -27,11 +27,11 @@ def day_MFI(data, window=10):
         weight = np.exp(np.linspace(-1., 0., window)) 
         weight /= weight.sum() 
         ema = np.convolve(mfi, weight)[:len(data['close'])]
-        ema = ema[window]: 
-        mfi = mfi[window]:
+        ema = ema[window]
+        mfi = mfi[window]
     except ImportError: 
         logging.error('Библиотека Numpy не найдена') 
-    dates = data['date'][window]:
+    dates = data['date'][window]
     data = {
         'date': dates,
         'ema': ema, 
