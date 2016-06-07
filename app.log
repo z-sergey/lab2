@@ -1,2 +1,1 @@
 INFO:root:Программа запущена с параметрами Namespace(file='AAPL.csv', file_log='app.log', file_out='rezult.txt', indicator='MFI', level_log='INFO', symbol=None, up_value=0, year=2016) в режиме файл
-ERROR:root:name 'acc' is not defined
